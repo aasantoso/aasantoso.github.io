@@ -26,6 +26,43 @@
     offset: 54
   });
 
+  // Collapse Navbar
+  var navbarCollapse = function() {
+    if ($("#mainNav").offset().top > 100) {
+      $("#mainNav").addClass("navbar-shrink");
+    } else {
+      $("#mainNav").removeClass("navbar-shrink");
+    }
+  };
+  // Collapse now if page is not at top
+  navbarCollapse();
+  // Collapse the navbar when page is scrolled
+  $(window).scroll(navbarCollapse);
+
+  // Scroll reveal calls
+  window.sr = ScrollReveal();
+  sr.reveal('.phase0', {
+    duration: 600,
+    scale: 0.3,
+    distance: '0px'
+  }, 200);
+  sr.reveal('.phase1', {
+    duration: 600,
+    scale: 0.3,
+    distance: '0px'
+  }, 200);
+  sr.reveal('.phase2', {
+    duration: 600,
+    scale: 0.3,
+    distance: '0px'
+  }, 200);
+  sr.reveal('.phase3', {
+      duration: 600,
+      scale: 0.3,
+      distance: '0px'
+    }, 200);
+
+
   $('.popup-gallery').magnificPopup({
   delegate: 'a',
   type: 'image',
