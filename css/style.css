@@ -61,7 +61,7 @@ header .overlay {
 
 .portfolio-box {
   position: relative;
-  display: block;
+  display: inline-block;
   max-width: 650px;
   margin: 0 auto;
 }
