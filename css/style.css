@@ -63,6 +63,9 @@ header .overlay {
   }
 }
 
+#phaseTitle {
+  text-align: center;
+}
 
 .portfolio-box {
   position: relative;
