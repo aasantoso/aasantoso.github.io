@@ -445,14 +445,14 @@ hr {
 }
 
 .img-fluid {
-  max-width: 200px;
-  max-height: 200px;
+  max-width: 350px;
+  max-height: 250px;
   display: inline-block;
 }
 
 .img-fluidd {
   max-width: 350px;
-  max-height: 350px;
+  max-height: 250px;
   display: inline-block;
 }
 
@@ -554,8 +554,8 @@ pre code {
 
 .container-fluid {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 0px;
+  padding-left: 0px;
   margin-right: auto;
   margin-left: auto
 }
@@ -583,8 +583,8 @@ pre code {
   position: relative;
   width: 100%;
   min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px
+  padding-right: 10px;
+  padding-left: 10px
 }
 
 .col {
@@ -621,9 +621,9 @@ pre code {
 }
 
 .col-4 {
-  -ms-flex: 0 0 33.333333%;
-  flex: 0 0 33.333333%;
-  max-width: 33.333333%
+  -ms-flex: 0 0 40%;
+  flex: 0 0 40%;
+  max-width: 40%
 }
 
 .col-5 {
